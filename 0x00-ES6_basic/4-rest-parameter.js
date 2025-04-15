@@ -1,6 +1,3 @@
-#!/usr/bin/env node
-export default function returnHowManyArguments(...params) {
-	return params.length;
+export default function returnHowManyArguments(...myArgs) {
+  return myArgs.length;
 }
-
-console.log(returnHowManyArguments('John', 'Doe'));
